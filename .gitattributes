@@ -1,0 +1,2 @@
+node_modules.tar.gz filter=lfs diff=lfs merge=lfs -text
+node_modules.tar.xz filter=lfs diff=lfs merge=lfs -text
