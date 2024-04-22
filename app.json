@@ -27,7 +27,12 @@
         "backgroundColor": "#000000"
       },
       "package": "com.Music.app",
-      "runtimeVersion": "1.0.0"
+      "runtimeVersion": "1.0.0",
+      "enableDangerousExperimentalLeanBuilds": true,
+      "androidArchitectures": [
+        "armeabi-v7a"
+      ],
+      "universalApk": false
     },
     "web": {
       "favicon": "./assets/favicon.png"

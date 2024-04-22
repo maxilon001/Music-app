@@ -6,17 +6,32 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "channel": "development"
+      "channel": "development",
+      "android": {
+        "enableDangerousExperimentalLeanBuilds": true,
+        "androidArchitectures": ["armeabi-v7a"],
+        "universalApk": false
+      }
     },
     "preview": {
       "distribution": "internal",
-      "channel": "preview"
+      "channel": "preview",
+      "android": {
+        "enableDangerousExperimentalLeanBuilds": true,
+        "androidArchitectures": ["armeabi-v7a"],
+        "universalApk": false
+      }
     },
     "production": {
-      "channel": "production"
+      "channel": "production",
+      "android": {
+        "enableDangerousExperimentalLeanBuilds": true,
+        "androidArchitectures": ["armeabi-v7a"],
+        "universalApk": false
+      }
     }
   },
   "submit": {
     "production": {}
   }
-}
+} 
