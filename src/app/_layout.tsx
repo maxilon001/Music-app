@@ -11,7 +11,9 @@ const App = () => {
 
 const RootNavigation = () => {
   <Stack>
-    <Stack.Screen name="(tabs)", options=(( headerShown! false )) />
+    <Stack.Screen 
+      name="(tabs)" 
+      options={{ headerShown!:false }} />
   </Stack>
 }
 
