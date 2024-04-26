@@ -2,16 +2,16 @@ import {View} from "react-native";
 import { Stack } from "expo-router";
 import { defaultStyles } from "@/styles";
 
-const SongsScreenLayout =() => {
+const ArtistsScreenLayout =() => {
   return( 
     <View style={defaultStyles.container}>
       <Stack> 
         <Stack.Screen 
           name="index"
-          options={{ headerTitle: "Songs" }} />
+          options={{ headerTitle: "Artists" }} />
       </Stack>
     </View>
   )
 } 
 
-export default SongsScreenLayout 
+export default ArtistsScreenLayout 
